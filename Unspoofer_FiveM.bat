@@ -1,0 +1,41 @@
+@echo off
+netsh advfirewall firewall delete rule name=FiveM.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.exe
+netsh advfirewall firewall delete rule name=FiveM_GTAProcess.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\FiveM_GTAProcess.exe
+netsh advfirewall firewall delete rule name=FiveM_SteamChild.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\FiveM_SteamChild.exe
+netsh advfirewall firewall delete rule name=FiveM_b2372_GTAProcess.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2372_GTAProcess.exe
+netsh advfirewall firewall delete rule name=FiveM_b2372_SteamChild.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2372_SteamChild.exe
+netsh advfirewall firewall delete rule name=FiveM_b2545_GTAProcess.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2545_GTAProcess.exe
+netsh advfirewall firewall delete rule name=FiveM_b2545_SteamChild.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2545_SteamChild.exe
+netsh advfirewall firewall delete rule name=FiveM_b2189_GTAProcess.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2189_GTAProcess.exe
+netsh advfirewall firewall delete rule name=FiveM_b2189_SteamChild.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2189_SteamChild.exe
+netsh advfirewall firewall delete rule name=FiveM_b2060_GTAProcess.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2060_GTAProcess.exe
+netsh advfirewall firewall delete rule name=FiveM_b2060_SteamChild.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2060_SteamChild.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2060_FXNode.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2060_FXNode.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2060_GameRuntime.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2060_GameRuntime.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2372_FXNode.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2372_FXNode.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2372_GameRuntime.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2372_GameRuntime.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2545_FXNode.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2545_FXNode.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2545_GameRuntime.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2545_GameRuntime.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2189_FXNode.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2060_FXNode.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2189_GameRuntime.exe dir=out program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2189_GameRuntime.exe
+echo In
+netsh advfirewall firewall delete rule name=FiveM.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.exe
+netsh advfirewall firewall delete rule name=FiveM_GTAProcess.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\FiveM_GTAProcess.exe
+netsh advfirewall firewall delete rule name=FiveM_SteamChild.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\FiveM_SteamChild.exe
+netsh advfirewall firewall delete rule name=FiveM_b2372_GTAProcess.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2372_GTAProcess.exe
+netsh advfirewall firewall delete rule name=FiveM_b2372_SteamChild.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2372_SteamChild.exe
+netsh advfirewall firewall delete rule name=FiveM_b2545_GTAProcess.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2545_GTAProcess.exe
+netsh advfirewall firewall delete rule name=FiveM_b2545_SteamChild.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2545_SteamChild.exe
+netsh advfirewall firewall delete rule name=FiveM_b2189_GTAProcess.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2189_GTAProcess.exe
+netsh advfirewall firewall delete rule name=FiveM_b2189_SteamChild.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2189_SteamChild.exe
+netsh advfirewall firewall delete rule name=FiveM_b2060_GTAProcess.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2060_GTAProcess.exe
+netsh advfirewall firewall delete rule name=FiveM_b2060_SteamChild.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_b2060_SteamChild.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2060_FXNode.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2060_FXNode.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2060_GameRuntime.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2060_GameRuntime.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2372_FXNode.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2372_FXNode.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2372_GameRuntime.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2372_GameRuntime.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2545_FXNode.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2545_FXNode.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2545_GameRuntime.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2545_GameRuntime.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2189_FXNode.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2060_FXNode.exe
+netsh advfirewall firewall delete rule name=FiveM_fxdk_b2189_GameRuntime.exe dir=in program =C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache\subprocess\FiveM_fxdk_b2189_GameRuntime.exe
+exit
